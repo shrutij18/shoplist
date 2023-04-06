@@ -5,6 +5,7 @@ public class Shopper {
 	double unit_cost;
 	String item_name;
 	double total_cost;
+	int points;
 	Shopper(int num_items,double unit_cost, String item_name)
 	{
 		this.num_items= num_items;
